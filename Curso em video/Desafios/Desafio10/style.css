@@ -1,0 +1,118 @@
+@font-face {
+    font-family: idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+
+main > div > h1{
+    font-family: 'idroid', sans-serif;
+    color: rgb(3, 61, 3);
+}
+
+.fundo{
+    font-family: 'idroid', sans-serif;
+    color: rgb(3, 61, 3);
+    background: linear-gradient(to right, #0301003d, #00000000)
+}
+body{
+    background-color: rgb(197, 180, 180);
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    margin: 0px 250px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.548);
+    background-color: white;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 17px;
+}
+
+header{
+    background: linear-gradient(#3CD983, #1A5C38);
+    margin: 0px;
+    padding: 1px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.548);
+}
+
+img{
+    display: block;
+    margin: 0px auto;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+    padding: 0px 10px;
+}
+
+ul > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    text-indent: 30px;
+}
+
+.cabecalho{
+    font-family: Arial, Helvetica, sans-serif, Courier, monospace;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.conteudo{
+    padding: 10px;
+}
+
+.video{
+display: flex;
+justify-content: center;
+background-color: #1A5C38;
+padding: 20px;
+}
+
+.caixa{
+margin: 10px;
+padding: 10px;
+}
+
+.aprender{
+    background-color:rgb(228, 212, 212);
+    border-radius: 0px 0px 10px 10px;
+    padding: 1px 10px;
+}
+
+.cimalista{
+    color: white;
+    background-color: #3CD983;
+    padding: 10px 10px;
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.lista{
+    display: flex;
+}
+
+footer{
+    text-align: center;
+    font-size: 8px;
+    padding: 1px;
+    color: white;
+    background-color: black;
+    margin-top: 10px;
+}
+
+
+.cabecalho > p{
+    padding: 10px;
+}
+
