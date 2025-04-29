@@ -3,6 +3,12 @@
     src: url(pacote-projeto-d010/fontes/idroid.otf);
 }
 
+@media (min-width: 768px) {
+    main{
+        margin: 0px 10px;
+    }
+}
+
 main > div > h1{
     font-family: 'idroid', sans-serif;
     color: rgb(3, 61, 3);
